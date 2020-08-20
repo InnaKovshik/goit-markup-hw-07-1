@@ -1,0 +1,130 @@
+header {
+  height: 81px;
+  border: 1px;
+  border: 1px solid #ececec;
+}
+
+.header-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.navigation-list-link,
+.address-list-link,
+.header-mail-link,
+.header-tel-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.navigation-list-link {
+  position: relative;
+  color: $text-color-title;
+
+  &::after {
+    content: '';
+    width: 0;
+    height: 4px;
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #2196f3;
+    border-radius: 2px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    width: 100%;
+    display: block;
+  }
+
+  &:hover,
+  &:focus {
+    color: $background-color-focus;
+    transition-duration: 250ms;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.active {
+  color: $background-color-focus;
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::after {
+    width: 100%;
+    display: block;
+  }
+}
+
+.address-list-link,
+.navigation-list-link {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $text-color;
+}
+
+.header-address {
+  margin-left: auto;
+}
+
+.navigation-header {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  margin-left: 80px;
+}
+
+.navigation-list:not(:last-child) {
+  margin-right: 50px;
+}
+
+.adress-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-tel-link:hover,
+.header-tel-link:focus,
+.header-mail-link:focus,
+.header-mail-link:hover,
+.footer-tell:focus,
+.footer-tell:hover,
+.footer-mail:focus,
+.footer-mail:hover,
+.footer-address:focus,
+.footer-address:hover {
+  color: $background-color-focus;
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-list:hover svg {
+  fill: $background-color-focus;
+}
+
+.client-list:hover {
+  border-color: $background-color-focus;
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-list-link:hover svg {
+  fill: $background-color-focus;
+}
+
+.address-list-link:hover {
+  color: $background-color-focus;
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}

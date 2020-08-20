@@ -1,0 +1,34 @@
+.send {
+  display: flex;
+}
+
+.send-block {
+  margin-top: 12px;
+  margin-left: 93px;
+}
+
+.send-text {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $text-color-white;
+}
+
+.send-icon {
+  padding: 10px;
+  fill: white;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 90px;
+  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}

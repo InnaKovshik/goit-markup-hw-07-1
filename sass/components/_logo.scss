@@ -1,0 +1,25 @@
+.logo-web,
+.logo-studio,
+.logo-studio-footer {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: black;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.navigation-header .logo {
+  padding-right: 93px;
+}

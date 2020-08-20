@@ -1,0 +1,42 @@
+body {
+  background-color: $background-color;
+  color: $text-color-title;
+  font-family: $main-font;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1 {
+  width: 620px;
+  margin-bottom: 30px;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: $text-color-white;
+}
+
+h2 {
+  margin-bottom: 50px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: $text-color-title;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}

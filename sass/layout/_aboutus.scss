@@ -1,0 +1,41 @@
+.title-aboutus {
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text-aboutus {
+  margin: 0px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $text-color;
+}
+
+.title-two {
+  text-align: center;
+}
+
+.we-do-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin: 0px;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.we-do li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.we-do li {
+  position: relative;
+}
